@@ -1,0 +1,28 @@
+ichikawasakiko@ichikawasakikonoMacBook-Pro lesson % cd git_challenge 
+ichikawasakiko@ichikawasakikonoMacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/ichikawasakiko/Desktop/lesson/git_challenge/.git/
+ichikawasakiko@ichikawasakikonoMacBook-Pro git_challenge % git add hello_world.txt 
+ichikawasakiko@ichikawasakikonoMacBook-Pro git_challenge % git commit -m 'hello_world.txtを追加'
+[main (root-commit) 2a6b94c] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+ichikawasakiko@ichikawasakikonoMacBook-Pro git_challenge % git add hello_world.txt              
+ichikawasakiko@ichikawasakikonoMacBook-Pro git_challenge % git commit -m '日本語訳を追記'       
+[main 56a9b08] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ichikawasakiko@ichikawasakikonoMacBook-Pro git_challenge % git log
+commit 56a9b08c54c693b4fdd553fdc7280927748871eb (HEAD -> main)
+Author: sakiko73 <mooming0703@yahoo.co.jp>
+Date:   Mon Feb 19 22:48:39 2024 +0900
+
+    日本語訳を追記
+
+commit 2a6b94c1957c0ef883d91b5440949fc5f80e8d1f
+Author: sakiko73 <mooming0703@yahoo.co.jp>
+Date:   Mon Feb 19 22:46:52 2024 +0900
+
+    hello_world.txtを追加
+ichikawasakiko@ichikawasakikonoMacBook-Pro git_challenge % git log --oneline
+56a9b08 (HEAD -> main) 日本語訳を追記
+2a6b94c hello_world.txtを追加
+ichikawasakiko@ichikawasakikonoMacBook-Pro git_challenge % 
